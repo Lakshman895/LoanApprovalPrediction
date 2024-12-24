@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Eligibility Prediction</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Loan Eligibility Prediction</h1>
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <h3>
+                <legend>Loan Prediction Form</legend>
+            </h3>
+            <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <select class="form-control" name="Gender" required>
+                    <option class="placeholder" selected disabled value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Married</label>
+                <select class="form-control" name="Married" required>
+                    <option class="placeholder" selected disabled value="">Select Marital Status</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Dependents</label>
+                <select class="form-control" name="Dependents" required>
+                    <option class="placeholder" selected disabled value="">Select Number of Dependents</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Education</label>
+                <select class="form-control" name="Education" required>
+                    <option class="placeholder" selected disabled value="">Select Education Level</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="not graduate">Not Graduate</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Self Employed</label>
+                <select class="form-control" name="Self_Employed" required>
+                    <option class="placeholder" selected disabled value="">Are You Self-Employed?</option>
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Loan Amount</label>
+                <input class="form-control" type="number" step="1" name="LoanAmount" placeholder="Enter Loan Amount" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Loan Amount Term</label>
+                <select class="form-control" name="Loan_Amount_Term" required>
+                    <option class="placeholder" selected disabled value="">Select Loan Term (Years)</option>
+                    <option value="30">30</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="5">5</option>
+                    <option value="25">25</option>
+                    <option value="40">40</option>
+                    <option value="20">20</option>
+                    <option value="3">3</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Credit History</label>
+                <select class="form-control" name="Credit_History" required>
+                    <option class="placeholder" selected disabled value="">Select Credit History</option>
+                    <option value="1.0">1.0</option>
+                    <option value="0.0">0.0</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Property Area</label>
+                <select class="form-control" name="Property_Area" required>
+                    <option class="placeholder" selected disabled value="">Select Property Area</option>
+                    <option value="rural">Rural</option>
+                    <option value="urban">Urban</option>
+                    <option value="semiurban">Semiurban</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Applicant Income</label>
+                <input class="form-control" type="number" step="1" name="ApplicantIncome" placeholder="Enter Applicant's Income" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Coapplicant Income</label>
+                <input class="form-control" type="number" step="1" name="CoapplicantIncome" placeholder="Enter Coapplicant's Income" required />
+            </div>
+            <div class="mb-3">
+                <input class="btn btn-primary" type="submit" value="Predict Loan Eligibility" />
+            </div>
+        </form>
+        <h2>
+            The prediction is: {{ results }}
+        </h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,201 @@
+ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Gender,Married,Dependents,Education,Self_Employed,Property_Area,Loan_Status
+16879,1959,414,36,1,male,no,3,no,yes,semiurban,approved
+6171,9022,102,120,0,male,yes,2,yes,yes,semiurban,not approved
+19624,4732,417,36,0,male,yes,1,yes,yes,semiurban,not approved
+2914,9580,459,240,1,male,yes,1,yes,yes,semiurban,approved
+8855,4907,231,12,1,female,yes,1,yes,yes,rural,not approved
+9934,8978,446,60,1,male,yes,0,yes,yes,rural,not approved
+10677,960,213,240,1,female,yes,0,yes,no,urban,approved
+13191,7470,489,240,1,female,no,2,no,yes,urban,approved
+5192,9315,106,360,1,female,no,3,no,yes,urban,approved
+15004,5254,416,60,1,male,yes,0,yes,no,rural,approved
+5127,7157,114,12,0,male,yes,3,yes,yes,semiurban,approved
+10705,5088,409,120,1,female,yes,1,yes,no,urban,not approved
+12028,9982,370,36,1,male,no,1,no,yes,semiurban,not approved
+13034,5126,480,120,0,male,no,2,no,no,semiurban,approved
+7848,7672,87,36,1,male,no,3,no,yes,rural,not approved
+11071,2242,478,240,1,female,no,3,no,yes,rural,approved
+19672,1141,124,240,1,male,yes,2,yes,yes,rural,approved
+19212,6447,65,12,0,male,no,0,no,no,semiurban,not approved
+9815,1155,244,120,1,male,yes,3,yes,yes,urban,approved
+5526,3047,233,60,1,male,yes,3,yes,yes,rural,not approved
+9007,9874,494,240,1,female,yes,3,yes,yes,semiurban,approved
+14833,6957,250,120,0,male,yes,0,yes,no,urban,approved
+14766,7999,415,360,0,male,yes,1,yes,yes,semiurban,not approved
+12463,3008,184,60,1,male,no,0,no,no,semiurban,approved
+19676,8596,137,60,0,male,yes,1,yes,yes,rural,approved
+17823,4463,144,120,1,female,no,1,no,no,rural,approved
+16940,1166,81,60,0,male,yes,1,yes,yes,rural,not approved
+13257,1180,307,120,0,female,yes,1,yes,yes,urban,not approved
+16227,8708,166,240,1,male,yes,2,yes,no,rural,approved
+9418,652,185,240,1,male,yes,2,yes,no,rural,approved
+19289,8030,352,360,0,male,no,3,no,no,rural,approved
+3272,8987,294,240,0,female,yes,2,yes,yes,semiurban,not approved
+8465,8851,268,240,0,male,no,2,no,yes,semiurban,not approved
+12136,7043,298,360,0,female,no,0,no,yes,semiurban,approved
+17571,7820,415,60,1,female,yes,3,yes,no,semiurban,not approved
+10788,3807,487,240,0,male,no,2,no,no,rural,not approved
+16357,74,416,60,1,female,no,2,no,no,semiurban,not approved
+10139,3930,478,360,1,female,yes,0,yes,yes,urban,approved
+17431,2638,344,60,0,female,no,3,no,no,rural,approved
+3560,2447,448,36,0,male,yes,2,yes,no,semiurban,not approved
+15016,5965,479,12,0,female,yes,2,yes,no,semiurban,not approved
+6031,5451,421,240,1,female,yes,0,yes,no,urban,not approved
+6695,1559,463,36,1,female,yes,2,yes,yes,urban,approved
+2861,9193,51,60,0,female,yes,0,yes,yes,urban,not approved
+16612,3360,180,60,1,female,no,2,no,no,rural,approved
+13168,8758,255,12,0,female,no,3,no,no,semiurban,approved
+10089,4129,144,120,1,male,yes,2,yes,yes,semiurban,not approved
+8360,3208,84,120,0,male,no,0,no,no,semiurban,not approved
+9033,2802,74,120,0,female,no,1,no,no,semiurban,approved
+17227,723,163,120,1,male,no,0,no,no,semiurban,approved
+2042,2122,427,120,0,male,yes,1,yes,no,urban,approved
+9226,6039,230,360,1,female,yes,2,yes,yes,rural,not approved
+2408,9515,484,36,1,female,no,0,no,yes,urban,not approved
+9994,7267,372,12,0,female,yes,2,yes,yes,rural,not approved
+9574,7042,467,360,1,male,no,1,no,yes,rural,not approved
+15274,4644,286,12,1,female,yes,0,yes,no,semiurban,not approved
+4520,4268,87,360,1,male,no,3,no,no,rural,approved
+18148,3195,416,36,0,female,yes,1,yes,no,semiurban,not approved
+9289,2491,253,120,0,female,yes,2,yes,no,urban,approved
+13315,4381,490,36,0,female,no,1,no,no,rural,not approved
+9720,495,321,120,0,female,no,3,no,no,rural,not approved
+10017,225,141,36,1,female,yes,0,yes,yes,semiurban,not approved
+4533,5307,222,12,1,female,yes,2,yes,no,urban,approved
+18012,4840,196,36,0,male,no,3,no,yes,urban,not approved
+16975,9768,493,36,1,female,no,0,no,yes,rural,approved
+16664,8712,366,12,0,male,yes,0,yes,yes,urban,not approved
+17621,9130,291,120,1,male,no,3,no,yes,rural,not approved
+17892,3142,256,360,0,male,yes,1,yes,no,urban,approved
+16988,8620,105,60,0,male,yes,2,yes,yes,rural,not approved
+2513,6305,495,36,0,female,yes,0,yes,yes,semiurban,not approved
+16317,2167,448,360,1,female,no,0,no,yes,rural,not approved
+17744,9043,246,360,1,male,no,1,no,yes,rural,approved
+10827,4464,439,240,1,female,yes,3,yes,yes,urban,approved
+13896,5316,345,12,0,female,no,3,no,yes,semiurban,approved
+10404,7016,322,120,1,female,no,3,no,yes,semiurban,not approved
+2437,1565,72,240,1,female,no,0,no,yes,urban,not approved
+7024,3790,317,12,0,female,no,1,no,no,rural,approved
+4321,3474,85,240,1,male,yes,3,yes,no,rural,not approved
+3876,8454,324,120,1,male,no,2,no,yes,semiurban,not approved
+17874,4958,371,360,1,male,no,0,no,yes,rural,approved
+7575,773,274,360,0,female,yes,3,yes,no,rural,approved
+3775,255,67,36,0,female,yes,2,yes,yes,semiurban,approved
+7329,4711,483,36,0,female,no,1,no,yes,urban,not approved
+14464,3911,190,60,0,female,yes,2,yes,no,urban,not approved
+7916,852,250,120,1,male,yes,0,yes,no,rural,approved
+3131,8511,174,240,0,male,no,3,no,yes,rural,approved
+2713,3790,400,240,1,female,yes,0,yes,yes,semiurban,approved
+2747,363,64,60,0,female,yes,3,yes,yes,urban,approved
+7493,6317,272,120,0,female,no,0,no,no,semiurban,not approved
+9450,6753,174,12,0,male,no,1,no,no,rural,approved
+18694,5310,86,120,1,male,no,0,no,yes,rural,approved
+14696,8086,173,36,0,male,yes,2,yes,yes,semiurban,not approved
+4333,1348,175,240,1,male,yes,2,yes,no,urban,approved
+18795,5946,445,120,1,male,yes,2,yes,no,semiurban,not approved
+17795,1814,302,36,0,female,no,3,no,no,rural,not approved
+18922,361,81,60,0,male,yes,1,yes,no,rural,not approved
+9208,5175,263,240,1,female,yes,3,yes,yes,semiurban,approved
+3529,9733,446,240,1,female,yes,0,yes,yes,urban,not approved
+9499,6309,384,36,0,male,yes,1,yes,no,urban,approved
+9381,8071,120,36,1,female,no,0,no,no,rural,approved
+7402,3773,284,120,1,male,no,2,no,no,urban,not approved
+17196,7027,388,360,1,male,no,0,no,yes,urban,approved
+9329,515,441,360,0,male,yes,0,yes,no,urban,approved
+12203,713,162,36,1,female,no,2,no,yes,semiurban,approved
+12348,449,284,60,0,female,no,3,no,yes,rural,not approved
+11635,4306,222,12,1,female,yes,1,yes,yes,rural,not approved
+4221,6473,263,60,1,female,yes,0,yes,yes,semiurban,approved
+2133,2822,500,12,0,female,no,0,no,yes,urban,not approved
+15827,9296,170,120,0,male,no,2,no,no,semiurban,approved
+15636,100,318,120,0,male,yes,2,yes,yes,semiurban,approved
+5894,6021,312,12,0,female,no,3,no,yes,urban,approved
+10438,7984,253,240,0,female,yes,3,yes,no,semiurban,not approved
+13795,6010,109,60,0,male,no,3,no,yes,semiurban,approved
+3139,2598,289,60,0,male,no,2,no,no,rural,not approved
+9248,5745,491,36,0,male,no,2,no,no,urban,not approved
+15446,6066,277,240,1,female,no,2,no,no,rural,approved
+7911,4745,300,240,0,female,yes,1,yes,yes,rural,not approved
+14710,3848,486,360,1,female,no,1,no,no,semiurban,not approved
+11701,2080,480,12,0,female,no,2,no,no,urban,not approved
+10694,2342,186,60,0,female,no,0,no,yes,semiurban,approved
+13197,8363,432,60,1,male,no,2,no,yes,rural,not approved
+16133,4967,358,360,1,female,no,0,no,no,semiurban,not approved
+19549,4599,373,360,1,male,no,1,no,yes,urban,approved
+3882,7386,126,120,1,female,yes,1,yes,yes,rural,not approved
+13284,4868,266,36,1,male,yes,1,yes,yes,urban,approved
+8799,523,187,240,1,female,no,0,no,yes,semiurban,approved
+16727,2358,225,12,0,female,yes,1,yes,no,urban,approved
+13061,8746,85,360,0,male,yes,2,yes,no,semiurban,approved
+11110,286,300,240,1,male,yes,3,yes,no,rural,approved
+3391,6725,89,360,0,male,no,0,no,no,rural,approved
+9587,9042,372,120,1,female,yes,0,yes,no,urban,approved
+3928,8688,430,120,0,male,no,0,no,yes,urban,not approved
+11395,1103,478,360,0,male,no,1,no,yes,semiurban,approved
+3002,7918,381,36,0,male,no,3,no,no,rural,not approved
+19415,6899,443,360,1,female,yes,1,yes,no,urban,approved
+10176,9115,179,60,1,female,yes,2,yes,yes,rural,approved
+15742,8369,484,360,0,male,no,2,no,yes,semiurban,not approved
+3326,1121,281,12,1,male,no,1,no,no,rural,approved
+8666,6731,207,120,0,male,no,1,no,yes,urban,approved
+14452,8990,219,240,0,female,yes,1,yes,no,rural,approved
+15310,8418,86,60,1,male,no,2,no,no,rural,not approved
+18853,4673,353,12,0,female,no,3,no,yes,rural,not approved
+17113,5044,258,12,1,female,no,2,no,no,semiurban,not approved
+3178,8565,412,120,1,male,yes,1,yes,yes,semiurban,approved
+13518,7135,204,60,0,male,no,3,no,yes,rural,approved
+11975,8950,431,360,0,female,yes,2,yes,yes,semiurban,not approved
+6996,8410,422,60,1,male,no,0,no,no,urban,approved
+15345,6133,296,36,1,female,no,3,no,yes,urban,approved
+3089,6144,370,36,0,male,yes,1,yes,yes,semiurban,not approved
+12481,9206,493,240,0,female,yes,0,yes,yes,semiurban,not approved
+8034,7797,473,120,1,female,yes,1,yes,yes,rural,approved
+11833,1778,83,360,1,female,yes,0,yes,yes,semiurban,approved
+8765,2845,336,240,0,male,yes,0,yes,no,semiurban,not approved
+11392,2905,310,36,1,female,yes,2,yes,no,rural,not approved
+16469,6220,53,60,1,male,no,2,no,no,urban,approved
+5815,6987,449,60,0,female,no,2,no,no,rural,not approved
+9709,9768,364,120,0,female,no,1,no,no,rural,not approved
+16635,2577,134,120,0,female,yes,2,yes,yes,rural,approved
+2379,6546,400,60,1,female,no,0,no,no,semiurban,approved
+10558,2016,329,240,1,male,no,3,no,yes,semiurban,approved
+9521,8535,174,360,0,female,no,0,no,no,semiurban,not approved
+16233,5519,394,12,1,female,no,1,no,no,semiurban,not approved
+7005,7436,108,12,1,male,no,3,no,no,rural,approved
+9096,9357,230,60,1,male,no,3,no,yes,semiurban,approved
+10161,441,303,12,1,female,no,2,no,yes,rural,not approved
+10645,4606,366,12,0,female,yes,2,yes,yes,semiurban,approved
+14828,5952,244,36,0,male,no,2,no,no,semiurban,approved
+16945,5923,325,60,1,female,no,2,no,yes,rural,approved
+2823,4393,440,12,0,male,yes,0,yes,yes,urban,not approved
+13224,5833,433,120,0,female,no,2,no,no,urban,not approved
+6782,2552,437,240,0,male,no,3,no,yes,semiurban,approved
+12986,3458,378,60,0,male,yes,3,yes,yes,urban,not approved
+7739,4067,365,360,1,female,yes,3,yes,no,semiurban,approved
+2358,4300,407,36,1,female,yes,1,yes,yes,urban,approved
+19727,3876,306,12,1,female,yes,0,yes,no,urban,not approved
+2114,57,64,12,0,female,no,3,no,no,semiurban,approved
+17820,7776,411,240,1,male,yes,1,yes,no,semiurban,not approved
+16200,9745,485,60,0,female,yes,1,yes,no,semiurban,not approved
+19640,9091,172,120,1,female,no,3,no,no,rural,not approved
+3966,8356,230,120,1,male,yes,0,yes,yes,semiurban,approved
+11490,2000,148,60,1,male,yes,1,yes,no,semiurban,approved
+15614,7388,433,240,1,male,yes,3,yes,no,urban,approved
+10552,8945,481,36,0,female,no,3,no,yes,semiurban,not approved
+19823,4389,410,36,0,female,yes,3,yes,no,semiurban,approved
+12977,695,486,36,0,male,no,0,no,no,urban,approved
+17204,4565,480,240,1,female,no,1,no,no,rural,not approved
+19157,6094,476,60,1,female,no,0,no,no,semiurban,approved
+12839,3616,66,240,0,female,yes,3,yes,no,rural,not approved
+17239,7053,500,240,1,female,yes,1,yes,yes,rural,approved
+18643,5867,470,120,0,female,no,1,no,no,semiurban,approved
+3217,645,379,120,1,female,no,3,no,yes,urban,approved
+7787,2283,79,240,0,female,yes,2,yes,no,semiurban,approved
+11129,747,140,60,0,female,no,0,no,no,semiurban,approved
+18653,4919,329,120,0,male,yes,2,yes,no,urban,not approved
+14595,3243,289,60,0,female,no,1,no,no,rural,approved
+9683,1472,124,240,0,female,no,2,no,no,semiurban,approved
+12046,605,453,360,1,male,no,0,no,yes,urban,not approved
+4892,9961,307,36,0,female,no,0,no,no,rural,approved
+17916,3343,381,120,1,male,no,0,no,yes,urban,approved
+9517,7863,371,60,1,male,yes,0,yes,yes,urban,not approved

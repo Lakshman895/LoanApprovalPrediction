@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval Prediction</title>
+    <style>
+        /* Reset some basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #8e44ad, #3498db);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #3498db;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            margin-top: 20px;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Add media query for responsiveness */
+        @media (max-width: 600px) {
+            button {
+                width: 100%;
+                padding: 10px;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loan Approval Prediction</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>Welcome to the Loan Approval Prediction page! Here you can view and enter loan applicant details to predict the likelihood of loan approval.</p>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='/predictdata'">Predict Car Price</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loan Approval Prediction</p>
+    </footer>
+</body>
+</html>
