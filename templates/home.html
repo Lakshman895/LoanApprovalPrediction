@@ -103,7 +103,7 @@
             </div>
         </form>
         <h2>
-            The prediction is: {{ results }}
+            The prediction is: {{ 'Eligible' if results == 1 else 'Not Eligible' }}
         </h2>
     </div>
 </body>

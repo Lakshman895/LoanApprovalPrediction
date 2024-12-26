@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
@@ -27,7 +27,8 @@ class DataTransformation:
         This function is responsible for data transformation
         '''
         try:
-            numerical_columns = ['LoanAmount', 'Loan_Amount_Term', 'ApplicantIncome','CoapplicantIncome',]
+            numerical_columns = ['LoanAmount', 'Loan_Amount_Term', 'ApplicantIncome', 'CoapplicantIncome','Credit_History','Dependents']
+            categorical_columns = ['Gender', 'Married', 'Education', 'Self_Employed', 'Property_Area']
 
             num_pipeline = Pipeline(
                 steps=[
@@ -36,11 +37,20 @@ class DataTransformation:
                 ]
             )
 
+            cat_pipeline = Pipeline(
+                steps=[
+                    ("impute", SimpleImputer(strategy="most_frequent")),
+                    ("onehot", OneHotEncoder(handle_unknown='ignore'))
+                ]
+            )
+
             logging.info(f"Numerical columns: {numerical_columns}")
+            logging.info(f"Categorical columns: {categorical_columns}")
 
             preprocessor = ColumnTransformer(
                 transformers=[
-                    ("num_pipeline", num_pipeline, numerical_columns)
+                    ("num_pipeline", num_pipeline, numerical_columns),
+                    ("cat_pipeline", cat_pipeline, categorical_columns)
                 ]
             )
 
@@ -53,32 +63,24 @@ class DataTransformation:
         try:
             logging.info('Entered initiate data transformation')
 
+            # Define target column
+            target_column_name = "Loan_Status"
+
             # Read data
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
 
             logging.info('Read train and test data completed')
 
-            # Encode categorical columns manually
-            encode_columns = {
-                'Gender': {'female': 0, 'male': 1},
-                'Married': {'no': 0, 'yes': 1},
-                'Education': {'no': 0, 'yes': 1},
-                'Self_Employed': {'no': 0, 'yes': 1},
-                'Property_Area': {'rural': 0, 'semiurban': 1, 'urban': 2},
-                'Loan_Status': {'approved': 0, 'not approved': 1}
-            }
+            # Encode target column manually
+            encode_target = {'approved': 0, 'not approved': 1}
 
-            # Apply encoding for categorical columns
-            for column, mapping in encode_columns.items():
-                train_df[column] = train_df[column].map(mapping).astype('int')
-                test_df[column] = test_df[column].map(mapping).astype('int')
+            train_df[target_column_name] = train_df[target_column_name].map(encode_target).astype('int')
+            test_df[target_column_name] = test_df[target_column_name].map(encode_target).astype('int')
 
-            logging.info('Categorical columns encoding completed')
+            logging.info('Target column encoding completed')
 
             # Separate target and features
-            target_column_name = "Loan_Status"
-
             X_train_df = train_df.drop(columns=[target_column_name], axis=1)
             y_train_data = train_df[target_column_name]
 

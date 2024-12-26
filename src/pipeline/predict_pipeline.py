@@ -11,24 +11,32 @@ class PredictPipeline:
     def predict(self, features):
         model_path = os.path.join('artifacts', 'model.pkl')
         preprocessor_path = os.path.join('artifacts', 'preprocessor.pkl')
+
         print("Before Loading")
         
         # Loading the model and preprocessor
-        model = load_object(file_path=model_path)
-        print("The model is: ", model)
+        try:
+            model = load_object(file_path=model_path)
+            preprocessor = load_object(file_path=preprocessor_path)
+        except Exception as e:
+            raise CustomException(f"Error loading model or preprocessor: {e}", sys)
 
-        preprocessor = load_object(file_path=preprocessor_path)
         print("After Loading")
         
-        # Transforming the features
+        # Transforming the features using preprocessor
         data_scaled = preprocessor.transform(features)
         print("The scaled data is: ", data_scaled.T)
         
-        # Making predictions
+        # Making continuous predictions (probabilities or scores)
         preds = model.predict(data_scaled)
+        print("Continuous prediction output: ", preds)
         
-        return preds
-    
+        # Apply a threshold to convert the continuous value to binary
+        threshold = 0.5  # Example threshold for binary classification
+        binary_preds = [1 if pred >= threshold else 0 for pred in preds]
+        
+        return binary_preds  # Return binary classification results (0 or 1)
+
 class CustomData:
     def __init__(self,
                  Gender: str,
